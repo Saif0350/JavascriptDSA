@@ -3,7 +3,7 @@
 const matrix = [
   [0, 0, 1, 1],
   [0, 1, 1, 1],
-  [0, 0, 0, 1],
+  [0, 1, 0, 1],
 ];
 
 function countZeros(matrix) {
@@ -11,11 +11,11 @@ function countZeros(matrix) {
 
   for (let row of matrix) {
     for (let val of row) {
-      if (val === 0) count++;
-      else break;
+      if (val === 1) {
+        count++;
+      }
     }
   }
-
   return count;
 }
 
