@@ -13,3 +13,5 @@ function isPrime(num) {
 }
 
 console.log(isPrime(48));
+
+//
