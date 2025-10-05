@@ -1,6 +1,6 @@
 // Longest Substring Without Repeating Characters
 
-const str = "abcabcbb";
+const str = "abcabcbbabcabcdabcdabcdabc";
 
 function lengthOfLongestSubstring(s) {
   let set = new Set();
