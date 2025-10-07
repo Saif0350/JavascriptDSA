@@ -4,7 +4,7 @@
 
 // using loop
 // function reverseWordInAString(str) {
-//   const words = str.split(" ");
+//       const words = s.split(" ").filter(word => word !== "");
 
 //   let reversed = "";
 //   for (let i = words.length - 1; i >= 0; i--) {
